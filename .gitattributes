@@ -1,0 +1,2 @@
+# Keep files byte-for-byte as distributed (mixed CRLF/LF upstream).
+* -text
