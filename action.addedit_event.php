@@ -146,7 +146,7 @@ if( $fields ) {
             $cdmod = cms_utils::get_module('CompanyDirectory');
             if( !$cdmod ) {
                 // have field type, but no companydirectory module.
-                continue;
+                continue 2;
             }
             // get a list of the companies that we want to display
             {
@@ -173,7 +173,7 @@ if( $fields ) {
                 $one = '*.'.$one;
             }
             $files = cge_dir::recursive_glob($dir,$pattern,'FILES',$excludes);
-            if( !is_array($files) || count($files) == 0 ) continue;
+            if( !is_array($files) || count($files) == 0 ) continue 2;
 
             $out = array($this->Lang('none')=>-1);
             foreach( $files as $one ) {

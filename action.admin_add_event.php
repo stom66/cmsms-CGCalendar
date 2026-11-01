@@ -245,7 +245,7 @@ foreach($fields as $field) {
         $cdmod = cms_utils::get_module('CompanyDirectory');
         if( !$cdmod ) {
             // have field type, but no companydirectory module.
-            continue;
+            continue 2;
         }
         // get a list of the companies that we want to display
         {
