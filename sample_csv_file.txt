@@ -1,0 +1,5 @@
+Start time,end time,Title,summary,Description,category,test1,test2 // anything after // on a line is ignored
+// this is a full line comment
+2012-01-31 00:00:00,2012-01-31 23:59:00,Last Day,"Last Day of January","This is the last day of january, for testing",General,foo,bar
+2012-02-14,,Valentines Day,St Valentines Day,"Remember to give your loved one some gifts, probably chocolate and flowers","Holidays;Romantic",test1val,test2val
+04-01-2012,04-01-2012 12:00,April Fools,April Fools Day,"Watch out for practical jokes",Holidays,test1vala,test2vala // just some dummy values for test1,test2
