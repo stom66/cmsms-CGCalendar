@@ -9,6 +9,12 @@
 
 <h3>History</h3>
   <ul>
+  <li>Version 2.6.3
+	<ul>
+	<li>Fork release by stom66.</li>
+	<li>Fixed continue statements inside switch blocks for PHP 8.</li>
+	</ul>
+  </li>
   <li>Version 2.6
 	<ul>
 	<li>Reformat the admin editing form a bit.</li>

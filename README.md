@@ -23,7 +23,7 @@ Rather than patching the copy inside every site separately, fixes live here so e
 
 ## Version number
 
-The module still reports version **2.6.2**, deliberately. Raising `moduleinfo.ini` / `GetVersion()` makes CMSMS mark the module as requiring an upgrade and it will not load until Module Manager runs that upgrade. Fork changes are tracked by this repository's commits and tags instead.
+The fork reports version **2.6.3**, a patch release above the final upstream 2.6.2, so Module Manager shows that the fork is installed. After replacing or updating the module, run the upgrade offered in Module Manager. CMSMS will not load the module until it has run. This release has no schema or data migrations.
 
 ## Installing / updating a site
 

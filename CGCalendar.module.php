@@ -121,7 +121,7 @@ final class CGCalendar extends CGExtensions
   function HasAdmin() { return true; }
   function GetEventDescription( $eventname ) { return $this->lang('eventdesc-' . $eventname); }
   function GetEventHelp( $eventname ) {	return $this->lang('eventhelp-' . $eventname); }
-  function GetVersion() { return '2.6.2'; }
+  function GetVersion() { return '2.6.3'; }
   function GetDependencies() { return [ 'CGExtensions'=>'1.61','CGSimpleSmarty'=>'2.1.6' ]; }
   function GetDescription($lang = 'en_US') { return $this->Lang("description"); }
   function GetAdminDescription() { return $this->Lang('cal_description'); }
